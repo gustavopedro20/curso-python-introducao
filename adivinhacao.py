@@ -1,8 +1,11 @@
+import random
+
 print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 print("Bem vindo no jogo de Adivinhação!")
 print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 
-numero_secreto = 42
+numero_secreto = random.randrange(1, 101)
+print(numero_secreto)
 total_de_tentativas = 3
 
 
